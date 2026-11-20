@@ -342,7 +342,7 @@ export function QrLabelWorkbench() {
               ))}
             </ul>
             <div className="notice notice--success" style={{ marginTop: 16 }}>
-              <ShieldCheck size={15} aria-hidden="true" /> ファイル・QR・PDF処理はブラウザ内で完結します。
+              <ShieldCheck size={15} aria-hidden="true" /> ファイル・QR・PDFの処理はブラウザ内で行います。元データは外部サーバーへ送信しません。本番ページ末尾の広告配信（忍者AdMax）は、元データとは無関係です。
             </div>
             <div className="button-row" style={{ justifyContent: "flex-end", marginTop: 18 }}>
               <button className="button button--primary" type="button" autoFocus onClick={() => setHelpOpen(false)}>わかりました</button>

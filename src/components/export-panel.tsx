@@ -97,7 +97,7 @@ export function ExportPanel({ records, template, onPrint }: ExportPanelProps) {
           <p className="eyebrow">05 · PDF / Export</p>
           <h1>印刷・配布に使える形式で、まとめて出力。</h1>
           <p className="page-heading__description">
-            A4 PDF、QR単体のSVG / PNG、一括ZIPをブラウザ内で生成します。元データは外部へ送信されません。
+            A4 PDF、QR単体のSVG / PNG、一括ZIPをブラウザ内で生成します。元データは外部サーバーへ送信しません。本番ページ末尾の広告配信（忍者AdMax）は、元データとは無関係です。
           </p>
         </div>
         <span className="privacy-pill"><LockKeyhole size={14} aria-hidden="true" /> 端末内で生成</span>
